@@ -1,0 +1,73 @@
+{
+  "name": "car-museum-hub",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^12.23.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.6.3",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "carMuseumData": {
+    "description": "Classic Car Museum Hub - Submission Data Storage",
+    "submissionFields": {
+      "email": "User email address",
+      "phone": "User phone number", 
+      "slots": "Number of visitor slots requested",
+      "date": "Preferred visit date",
+      "message": "Additional user message"
+    },
+    "submissionStorage": "Data is stored in React state and displayed in the application",
+    "features": [
+      "Real-time form submission tracking",
+      "Toggle view for submission data",
+      "Individual submission cards with details",
+      "Responsive design for all screen sizes"
+    ],
+    "colors": {
+      "primary": "#582f0e",
+      "secondary": "#7f4f24", 
+      "accent": "#ffff",
+      "text": "#000000"
+    },
+    "carBrands": [
+      "Audi", "BMW", "Porsche", "Aston Martin", "Ferrari", 
+      "Mercedes-Benz", "Apollo", "Ford", "Alfa Romeo", "Alpina", 
+      "Mini", "Lincoln", "Bentley", "Rolls-Royce"
+    ],
+    "totalCars": 30,
+    "animationLibrary": "Framer Motion",
+    "responsive": true
+  }
+}
