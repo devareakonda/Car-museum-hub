@@ -29,7 +29,7 @@ const Home = () => {
       category: 'Sports Car',
       price: '$95,000',
       special: 'Restored',
-      image: 'https://images.unsplash.com/photo-1544829099-b9a0c5303bea?w=400&h=300&fit=crop'
+      image: 'https://www.classicdriver.com/sites/default/files/article_images/porsche_911_carrera_cs_1_0.jpg'
     },
     {
       id: 3,
@@ -38,7 +38,7 @@ const Home = () => {
       category: 'Sports Sedan',
       price: '$75,000',
       special: 'Original Paint',
-      image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=300&fit=crop'
+      image: 'https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2022/07/BMW-E30-custom-render-1.jpg'
     }
   ];
 
