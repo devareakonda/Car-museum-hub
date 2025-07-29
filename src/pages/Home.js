@@ -29,7 +29,7 @@ const Home = () => {
       category: 'Sports Car',
       price: '$95,000',
       special: 'Restored',
-      image: 'https://images.unsplash.com/photo-1544829099-b9a0c5303bea?w=400&h=300&fit=crop'
+      image: 'https://www.classicdriver.com/sites/default/files/article_images/porsche_911_carrera_cs_1_0.jpg'
     },
     {
       id: 3,
