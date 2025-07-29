@@ -38,7 +38,7 @@ const Home = () => {
       category: 'Sports Sedan',
       price: '$75,000',
       special: 'Original Paint',
-      image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=300&fit=crop'
+      image: 'https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2022/07/BMW-E30-custom-render-1.jpg'
     }
   ];
 
