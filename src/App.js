@@ -7,6 +7,7 @@ import Services from './pages/Services';
 import CarsMuseum from './pages/CarsMuseum';
 import Login from './pages/Login';
 import './App.css';
+import Footer from './pages/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/cars-museum" element={<CarsMuseum />} />
           <Route path="/login" element={<Login />} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
